@@ -28,7 +28,7 @@ int main(void)
 		if (bit_is_clear(PINB, 0))
 		{
 			sbi(PORTB, PB1);
-			sendByte(1);
+			sendByte(0x5B);
 			_delay_ms(500);
 			cbi(PORTB, PB1);
 			

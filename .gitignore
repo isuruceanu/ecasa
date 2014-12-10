@@ -8,6 +8,21 @@
 *.lib
 *.a
 
+# avr obj
+*.lst
+*.eep
+*.lss
+*.lst
+*.map
+*.map
+*.sym
+
+# ISIS Proteus
+*.DBK
+*.PWI
+
+.dep
+
 # Shared objects (inc. Windows DLLs)
 *.dll
 *.so
