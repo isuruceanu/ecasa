@@ -22,13 +22,13 @@ int main(void)
 	cbi(PORTB, PB2);
 	
 	
-	
+	startTX();
 	while(1)
 	{
 		if (bit_is_clear(PINB, 0))
 		{
 			sbi(PORTB, PB1);
-			sendByte(0x5B);
+			sendByte(1);
 			_delay_ms(500);
 			cbi(PORTB, PB1);
 			
