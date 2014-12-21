@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Meteo", "Meteo\Meteo.cppproj", "{C2E4917A-7001-4ABF-8F0F-9CB7D6FF6388}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "rs485", "rs485\rs485.cppproj", "{F47A1026-AAB0-4DD1-9C80-711822495485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2E4917A-7001-4ABF-8F0F-9CB7D6FF6388}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C2E4917A-7001-4ABF-8F0F-9CB7D6FF6388}.Debug|AVR.Build.0 = Debug|AVR
+		{C2E4917A-7001-4ABF-8F0F-9CB7D6FF6388}.Release|AVR.ActiveCfg = Release|AVR
+		{C2E4917A-7001-4ABF-8F0F-9CB7D6FF6388}.Release|AVR.Build.0 = Release|AVR
+		{F47A1026-AAB0-4DD1-9C80-711822495485}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F47A1026-AAB0-4DD1-9C80-711822495485}.Debug|AVR.Build.0 = Debug|AVR
+		{F47A1026-AAB0-4DD1-9C80-711822495485}.Release|AVR.ActiveCfg = Release|AVR
+		{F47A1026-AAB0-4DD1-9C80-711822495485}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
