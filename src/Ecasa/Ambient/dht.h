@@ -4,7 +4,7 @@
 #define DHT_PORT	PORTB
 #define DHT_DDR		DDRB
 #define DHT_PIN		PINB
-#define DHT_BIT		PB0
+
 
 typedef enum 
 {
@@ -16,7 +16,7 @@ typedef enum
 } DHT_ERROR_t;
 
 
-DHT_ERROR_t readDHT(unsigned char *dht_data);
+DHT_ERROR_t readDHT(unsigned char dht_pin, unsigned char *dht_data);
 
 #endif
 
