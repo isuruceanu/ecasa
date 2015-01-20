@@ -1,0 +1,40 @@
+<h4 class="page-header">
+	Known devices
+<small>
+	<a class="btn btn-app"><i class="fa fa-refresh"></i> Scan </a>
+</small>
+</h4>
+
+<div class="row">
+	{{range .}}
+	<div class="col-md-4">
+		<div class="box box-solid bg-light-blue">
+			<div class="box-header">
+				<h3 class="box-title">#{{.Id}}</h3>
+				<span class="break"></span>
+				<h3 class="box-title">{{.Name}}</h3>
+				<div class="pull-right box-tools">
+					<div class="btn-group">
+						<button class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i></button>
+							<ul class="dropdown-menu pull-right" role="menu">
+                                <li><a href="#">Change name</a></li>
+                                <li><a href="#">Change id</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Do something</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-primary btn-sm" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    </div><!-- /. tools -->
+			</div>
+			<div class="box-body">
+             Box class: <code>.box.box-solid.box-danger</code>
+             <p>
+                 amber, microbrewery abbey hydrometer, brewpub ale lauter tun saccharification oxidized barrel.
+                 berliner weisse wort chiller adjunct hydrometer alcohol aau!
+                 sour/acidic sour/acidic chocolate malt ipa ipa hydrometer.
+             </p>
+			</div><!-- /.box-body -->
+		</div><!-- /.box -->
+	</div><!-- /.col -->
+	{{end}}
+</div>
