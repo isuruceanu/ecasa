@@ -5,14 +5,6 @@ import(
 	"github.com/martini-contrib/render"
 )
 
-type Book struct{
-	Title string
-	Author string
-	Id int32
-}
-
-type Books []Book
-
 func main() {
 	m := martini.Classic()
 	m.Use(render.Renderer(render.Options{
@@ -20,18 +12,18 @@ func main() {
 	}))
 	
 		
-	books := Books{
-		Book{Title: "Title One", Author: "Morgan", Id:1},
-		Book{Title: "Title Two", Author: "Adam Smith", Id:2},
-		Book{Title: "Title Three", Author: "Adam Smith", Id:3},
+	devices := Devices{
+		Device{Id:1, Name:"Device1"},
+		Device{Id:2, Name:"Device 2"},
+		Device{Id:4, Name:"Device 4"},
 	}
 	
 	m.Get("/", func(r render.Render) {
 		r.HTML(200, "dashboard", nil)
 	})
 	
-	m.Get("/books", func(r render.Render) {
-		r.HTML(200, "books", books)
+	m.Get("/devices", func(r render.Render){
+		r.HTML(200, "devices", devices)
 	})
 	
 	m.Run()
