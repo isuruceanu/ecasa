@@ -15,7 +15,7 @@
 	<a class="col-lg-3 col-xs-6">
 		<div class="small-box bg-green">
 			<div class="inner">
-				<h3>23,2<sup style="font-size: 20px">&deg;C</sup></h3>
+				<h3 id="temperatureId"><li>23,2</li><sup style="font-size: 20px">&deg;C</sup></h3>
 				<p>Temparature</p>
             </div>
 			<div class="icon">
@@ -89,3 +89,22 @@
         </div>
     </a><!-- ./col -->
 </div>
+
+<script type="text/javascript">
+	 var conn;
+	
+	$(function() {
+		if (window["WebSocket"]) {
+		
+        conn = new WebSocket("ws://192.168.11.101:3000/ws");
+        conn.onclose = function(evt) {
+            alert("<div><b>Connection closed.</b></div>")
+        }
+        conn.onmessage = function(evt) {
+            $('#temperatureId').text(evt.data);
+        }
+    } else {
+        alert("<div><b>Your browser does not support WebSockets.</b></div>")
+    }
+	});
+</script>
