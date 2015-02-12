@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/12/2015 9:41:20 PM
+
+BeginCmp
+TimeStamp = /54DCC0DA;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC12E;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC11F;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC13D;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCBF76;
+Reference = K1;
+ValeurCmp = DHT1;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCBF93;
+Reference = K2;
+ValeurCmp = DHT2;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCBFAE;
+Reference = K3;
+ValeurCmp = DS18B20;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC0AE;
+Reference = P1;
+ValeurCmp = TOBOILER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC0C2;
+Reference = P2;
+ValeurCmp = BOILERSW;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC4E6;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC5CE;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC720;
+Reference = R3;
+ValeurCmp = 4K7;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC2FC;
+Reference = R4;
+ValeurCmp = 220;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCC254;
+Reference = U1;
+ValeurCmp = OPTO-TRANSISTOR4;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCF16D;
+Reference = U2;
+ValeurCmp = ARDUINO_MINI;
+IdModule  = arduino_mini;
+EndCmp
+
+BeginCmp
+TimeStamp = /54DCF8CA;
+Reference = U3;
+ValeurCmp = ENC28J60;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+EndListe
