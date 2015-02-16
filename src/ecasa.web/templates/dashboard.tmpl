@@ -1,6 +1,6 @@
 <div class="row">
 	<a class="col-lg-3 col-xs-6" href="/devices/">
-    	<div class="small-box bg-aqua">
+    	<div class="small-box bg-teal">
 			<div class="inner">
 				<h3>5<sup style="font-size: 20px"> of 27</sup></h3>
 				<p>Lights</p>
@@ -12,10 +12,14 @@
 		</div>
 	</a>
 	
-	<a class="col-lg-3 col-xs-6">
+	<a class="col-lg-3 col-xs-6" href="/devices/">
 		<div class="small-box bg-green">
 			<div class="inner">
-				<h3 id="temperatureId"><li>23,2</li><sup style="font-size: 20px">&deg;C</sup></h3>
+				<h3>
+					<span class="inner" id='temperatureId'>23,4 </span>
+					<sup style="font-size: 20px">&deg;C</sup> 
+				</h3>
+				
 				<p>Temparature</p>
             </div>
 			<div class="icon">
@@ -58,17 +62,17 @@
     </a><!-- ./col -->
 	 <a class="col-lg-3 col-xs-6">
         <!-- small box -->
-        <div class="small-box bg-pink">
+        <div class="small-box bg-black">
             <div class="inner">
                 <h3>
-                    On
-                </h3>
+					&nbsp;
+				</h3>
                 <p>
-                    some new devices
-                </p>
+					Water tank
+				</p>
             </div>
             <div class="icon">
-                <i class="ion ion-fireball"></i>
+                <input type="text" class="knob" data-readonly="true" data-thickness="0.2" data-angleArc="250" data-angleOffset="-125" value="30" data-width="90" data-height="90" data-fgColor="#ffec03	"/>
             </div>
         </div>
     </a><!-- ./col -->
@@ -95,8 +99,8 @@
 	
 	$(function() {
 		if (window["WebSocket"]) {
-		
-        conn = new WebSocket("ws://192.168.11.101:3000/ws");
+			
+        conn = new WebSocket("ws://"+ window.location.host +"/ws");
         conn.onclose = function(evt) {
             alert("<div><b>Connection closed.</b></div>")
         }
@@ -106,5 +110,6 @@
     } else {
         alert("<div><b>Your browser does not support WebSockets.</b></div>")
     }
+	
 	});
 </script>

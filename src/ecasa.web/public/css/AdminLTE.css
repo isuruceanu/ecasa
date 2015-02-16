@@ -1341,6 +1341,7 @@ body > .header .logo .icon {
   -moz-animation-timing-function: ease;
   -moz-animation-fill-mode: forwards;
 }
+
 @keyframes tansformAnimation {
   from {
     font-size: 90px;
