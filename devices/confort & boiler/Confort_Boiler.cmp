@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/12/2015 9:41:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/4/2015 12:33:02 PM
 
 BeginCmp
 TimeStamp = /54DCC0DA;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = D3;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
@@ -18,13 +18,34 @@ BeginCmp
 TimeStamp = /54DCC11F;
 Reference = D3;
 ValeurCmp = DIODE;
-IdModule  = D3;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC13D;
 Reference = D4;
 ValeurCmp = DIODE;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6D68D;
+Reference = D5;
+ValeurCmp = 4v7;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6D772;
+Reference = D6;
+ValeurCmp = 15V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6D928;
+Reference = D7;
+ValeurCmp = 4v3;
 IdModule  = D3;
 EndCmp
 
@@ -57,38 +78,73 @@ IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DCC0C2;
-Reference = P2;
-ValeurCmp = BOILERSW;
-IdModule  = SIL-2;
+TimeStamp = /54F6D461;
+Reference = Q1;
+ValeurCmp = BC558;
+IdModule  = TO92;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC4E6;
 Reference = R1;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC5CE;
 Reference = R2;
 ValeurCmp = 10K;
-IdModule  = SM0805;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC720;
 Reference = R3;
 ValeurCmp = 4K7;
-IdModule  = SM0805;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC2FC;
 Reference = R4;
-ValeurCmp = 220;
-IdModule  = SM0805;
+ValeurCmp = 330;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6D549;
+Reference = R5;
+ValeurCmp = 200;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6D56D;
+Reference = R6;
+ValeurCmp = 100;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6D454;
+Reference = R7;
+ValeurCmp = 330;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6DCE6;
+Reference = R8;
+ValeurCmp = 1K5;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6DDEA;
+Reference = R9;
+ValeurCmp = 1K5;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -106,10 +162,17 @@ IdModule  = arduino_mini;
 EndCmp
 
 BeginCmp
-TimeStamp = /54DCF8CA;
+TimeStamp = /54DD0F36;
 Reference = U3;
 ValeurCmp = ENC28J60;
 IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F6DA08;
+Reference = U4;
+ValeurCmp = OPTO-TRANSISTOR4;
+IdModule  = PIN_ARRAY_2X2;
 EndCmp
 
 EndListe
