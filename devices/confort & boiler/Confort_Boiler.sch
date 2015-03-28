@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 mar 2015"
+Date "27 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -236,8 +236,6 @@ Text GLabel 1550 5400 1    60   Input ~ 0
 LDHT1
 Text GLabel 3050 5400 1    60   Input ~ 0
 LDS18B20
-Text GLabel 8500 1900 2    60   Input ~ 0
-LBOILER
 Text GLabel 8950 2000 2    60   Input ~ 0
 LDS18B20
 Text GLabel 8550 2100 2    60   Input ~ 0
@@ -436,25 +434,13 @@ Connection ~ 2950 5500
 Wire Wire Line
 	3150 6150 3150 5400
 Wire Wire Line
-	7500 800  7500 1000
-Wire Wire Line
 	7350 3700 7350 3750
 Wire Wire Line
 	7350 3750 9850 3750
 Wire Wire Line
-	6650 3450 6550 3450
-Wire Wire Line
-	6550 3450 6550 3800
-Wire Wire Line
-	6550 3800 9950 3800
-Wire Wire Line
-	8050 2750 10200 2750
-Wire Wire Line
 	8050 1600 8350 1600
 Wire Wire Line
 	8050 1500 8300 1500
-Wire Wire Line
-	8050 1900 8500 1900
 Wire Wire Line
 	8950 2000 8050 2000
 Wire Wire Line
@@ -495,27 +481,13 @@ Wire Wire Line
 Wire Wire Line
 	8300 800  8300 1500
 Wire Wire Line
-	8700 1500 8450 1500
+	8450 1500 8700 1500
 Wire Wire Line
-	8450 1500 8450 950 
-Wire Wire Line
-	8450 950  7650 950 
-Wire Wire Line
-	7650 950  7650 800 
-Wire Wire Line
-	7650 800  7500 800 
-Wire Wire Line
-	9800 1100 10200 1100
-Wire Wire Line
-	10200 1100 10200 2750
+	8450 900  8450 1500
 Wire Wire Line
 	9850 3750 9850 1500
 Wire Wire Line
 	9850 1500 9800 1500
-Wire Wire Line
-	9800 1400 9950 1400
-Wire Wire Line
-	9950 1400 9950 3800
 Wire Wire Line
 	1550 1400 3000 1400
 Wire Wire Line
@@ -602,8 +574,11 @@ Text GLabel 8300 2650 2    60   Input ~ 0
 LRX
 Wire Wire Line
 	8300 2650 8050 2650
-Text GLabel 8300 2450 2    60   Input ~ 0
+Text GLabel 8300 2550 2    60   Input ~ 0
 LTX
 Wire Wire Line
-	8050 2450 8300 2450
+	7350 900  8450 900 
+Connection ~ 7350 900 
+Wire Wire Line
+	8050 2550 8300 2550
 $EndSCHEMATC

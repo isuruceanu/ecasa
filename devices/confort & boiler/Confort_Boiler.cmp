@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/4/2015 12:33:02 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/28/2015 8:46:20 PM
 
 BeginCmp
 TimeStamp = /54DCC0DA;
@@ -88,14 +88,14 @@ BeginCmp
 TimeStamp = /54DCC4E6;
 Reference = R1;
 ValeurCmp = 10K;
-IdModule  = R1;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC5CE;
 Reference = R2;
 ValeurCmp = 10K;
-IdModule  = R1;
+IdModule  = R3;
 EndCmp
 
 BeginCmp
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /54DCC254;
 Reference = U1;
 ValeurCmp = OPTO-TRANSISTOR4;
-IdModule  = PIN_ARRAY_2X2;
+IdModule  = PC817;
 EndCmp
 
 BeginCmp
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /54F6DA08;
 Reference = U4;
 ValeurCmp = OPTO-TRANSISTOR4;
-IdModule  = PIN_ARRAY_2X2;
+IdModule  = PC817;
 EndCmp
 
 EndListe

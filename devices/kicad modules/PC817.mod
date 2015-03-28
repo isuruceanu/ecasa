@@ -1,0 +1,48 @@
+PCBNEW-LibModule-V1  3/5/2015 10:38:53 PM
+# encoding utf-8
+Units mm
+$INDEX
+PC817
+$EndINDEX
+$MODULE PC817
+Po 0 0 0 15 54F8BECF 00000000 ~~
+Li PC817
+Sc 0
+AR 
+Op 0 0 0
+T0 -1.27 -1.27 1 1 0 0.15 N V 21 N "PC817"
+T1 0 1.27 1 1 0 0.15 N V 21 N "VAL**"
+DS -5.08 2.54 3.81 2.54 0.15 21
+DS -5.08 -2.54 3.81 -2.54 0.15 21
+DS 3.81 -2.54 3.81 2.54 0.15 21
+DS -5.08 2.54 -5.08 -2.54 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -1.27
+$EndPAD
+$EndMODULE PC817
+$EndLIBRARY

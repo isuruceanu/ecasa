@@ -1,4 +1,4 @@
-update=3/4/2015 2:29:17 PM
+update=3/5/2015 10:53:55 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,44 +6,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
-[pcbnew/libraries]
-LibDir=../kicad modules/Arduino_nano
-LibName1=arduino
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=smd_capacitors
-LibName8=smd_resistors
-LibName9=smd_crystal&oscillator
-LibName10=smd_dil
-LibName11=smd_transistors
-LibName12=libcms
-LibName13=display
-LibName14=led
-LibName15=dip_sockets
-LibName16=pga_sockets
-LibName17=valves
 [eeschema]
 version=1
 LibDir=../kicad modules/Arduino_nano;../kicad modules
@@ -85,5 +47,44 @@ LibName29=atmel
 LibName30=contrib
 LibName31=arduino
 LibName32=valves
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.500000000000
+PadSizeV=1.500000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.000000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.100000000000
+ModuleOutlineThickness=0.150000000000
+[pcbnew/libraries]
+LibDir=../kicad modules/Arduino_nano;../kicad modules
+LibName1=arduino
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=smd_capacitors
+LibName8=smd_resistors
+LibName9=smd_crystal&oscillator
+LibName10=smd_dil
+LibName11=smd_transistors
+LibName12=libcms
+LibName13=display
+LibName14=led
+LibName15=dip_sockets
+LibName16=pga_sockets
+LibName17=valves
+LibName18=D:/projects/golang/src/github.com/isuruceanu/ecasa/devices/kicad modules/PC817
 [general]
 version=1
