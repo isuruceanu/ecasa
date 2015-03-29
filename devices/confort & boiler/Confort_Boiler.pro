@@ -1,11 +1,6 @@
-update=3/5/2015 10:53:55 PM
+update=3/29/2015 3:10:31 PM
 version=1
 last_client=kicad
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../kicad modules/Arduino_nano;../kicad modules
@@ -47,14 +42,19 @@ LibName29=atmel
 LibName30=contrib
 LibName31=arduino
 LibName32=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=Confort_Boiler.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=1.016000000000
+PadDrillOvalY=1.016000000000
+PadSizeH=1.800000000000
+PadSizeV=1.800000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -86,5 +86,7 @@ LibName15=dip_sockets
 LibName16=pga_sockets
 LibName17=valves
 LibName18=D:/projects/golang/src/github.com/isuruceanu/ecasa/devices/kicad modules/PC817
+LibName19=DG306
+LibName20=myModules
 [general]
 version=1

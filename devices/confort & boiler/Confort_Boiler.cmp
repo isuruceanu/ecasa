@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/28/2015 8:46:20 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/29/2015 2:23:47 PM
 
 BeginCmp
 TimeStamp = /54DCC0DA;
@@ -53,28 +53,28 @@ BeginCmp
 TimeStamp = /54DCBF76;
 Reference = K1;
 ValeurCmp = DHT1;
-IdModule  = SIL-3;
+IdModule  = DG306-5.08-03;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCBF93;
 Reference = K2;
 ValeurCmp = DHT2;
-IdModule  = SIL-3;
+IdModule  = DG306-5.08-03;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCBFAE;
 Reference = K3;
 ValeurCmp = DS18B20;
-IdModule  = SIL-3;
+IdModule  = DG306-5.08-03;
 EndCmp
 
 BeginCmp
 TimeStamp = /54DCC0AE;
 Reference = P1;
 ValeurCmp = TOBOILER;
-IdModule  = SIL-2;
+IdModule  = DG306-5.08-02;
 EndCmp
 
 BeginCmp
@@ -137,14 +137,14 @@ BeginCmp
 TimeStamp = /54F6DCE6;
 Reference = R8;
 ValeurCmp = 1K5;
-IdModule  = R3;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F6DDEA;
 Reference = R9;
 ValeurCmp = 1K5;
-IdModule  = R3;
+IdModule  = R1;
 EndCmp
 
 BeginCmp
