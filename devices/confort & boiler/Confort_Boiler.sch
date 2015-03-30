@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "27 mar 2015"
+Date "30 mar 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -581,4 +581,31 @@ Wire Wire Line
 Connection ~ 7350 900 
 Wire Wire Line
 	8050 2550 8300 2550
+$Comp
+L CONN_8 P2
+U 1 1 551948B2
+P 6200 2300
+F 0 "P2" V 6150 2300 60  0000 C CNN
+F 1 "CONN_8" V 6250 2300 60  0000 C CNN
+F 2 "" H 6200 2300 60  0000 C CNN
+F 3 "" H 6200 2300 60  0000 C CNN
+	1    6200 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1950 6650 1950
+Wire Wire Line
+	6550 2050 6650 2050
+Wire Wire Line
+	6550 2150 6650 2150
+Wire Wire Line
+	6550 2250 6650 2250
+Wire Wire Line
+	6550 2350 6650 2350
+Wire Wire Line
+	6550 2450 6650 2450
+Wire Wire Line
+	6550 2550 6650 2550
+Wire Wire Line
+	6550 2650 6650 2650
 $EndSCHEMATC
