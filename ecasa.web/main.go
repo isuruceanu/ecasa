@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
+	"time"
 
+	"ecasa/ecasa.web/managers"
 	_ "ecasa/ecasa.web/routers"
 	"github.com/astaxie/beego"
 
@@ -25,5 +27,15 @@ func init() {
 }
 
 func main() {
+	go readTemp()
 	beego.Run()
+}
+
+func readTemp() {
+	tempManager := managers.TemperatureManager{}
+	for {
+
+		tempManager.Read()
+		time.Sleep(15 * time.Second)
+	}
 }
