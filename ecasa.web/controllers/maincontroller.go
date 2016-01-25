@@ -14,5 +14,5 @@ func (c *MainController) ActiveContent(view string) {
 	c.LayoutSections["Header"] = "header.html"
 	c.LayoutSections["Footer"] = "footer.html"
 
-	c.TplNames = view + ".html"
+	c.TplName = view + ".html"
 }

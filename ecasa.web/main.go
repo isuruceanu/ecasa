@@ -15,7 +15,7 @@ import (
 )
 
 func init() {
-	orm.RegisterDriver("sqlite", orm.DR_Sqlite)
+	orm.RegisterDriver("sqlite", orm.DRSqlite)
 	orm.RegisterDataBase("default", "sqlite3", "ecasa.db")
 	name := "default"
 	force := false

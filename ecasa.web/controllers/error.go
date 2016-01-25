@@ -9,5 +9,5 @@ type ErrorController struct {
 }
 
 func (er *ErrorController) Error404() {
-	er.TplNames = "error/404.html"
+	er.TplName = "error/404.html"
 }

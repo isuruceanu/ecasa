@@ -1,0 +1,24 @@
+{
+	"ImportPath": "ecasa/ecasa.web",
+	"GoVersion": "go1.5.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/astaxie/beego",
+			"Comment": "v1.5.0-9-gfb7314f",
+			"Rev": "fb7314f8ac86b83ccd34386518d97cf2363e2ae5"
+		},
+		{
+			"ImportPath": "github.com/d2r2/go-dht",
+			"Rev": "92132f8c4299e717d37b980142092e34ed71e579"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v1.1.0-27-g5651a9d",
+			"Rev": "5651a9d9d49ec25811d08220ee972080378d52ea"
+		},
+		{
+			"ImportPath": "github.com/op/go-logging",
+			"Rev": "dfaf3dff9b631bc4236201d90d41ee0de9202889"
+		}
+	]
+}
