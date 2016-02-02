@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/kidoman/embd"
+	_ "github.com/kidoman/embd/host/rpi"
 )
 
 type DHT struct {
@@ -77,4 +78,25 @@ func (d *DHT) Read() (temp, hum float64, err error) {
 		fmt.Println(err)
 		fmt.Println(t)
 	}
+}
+
+func main() {
+	if err := embd.InitGPIO(); err != nil {
+		panic(err)
+	}
+	defer embd.CloseGPIO()
+
+	btn, err := embd.NewDigitalPin(4)
+	if err != nil {
+		panic(err)
+	}
+	defer btn.Close()
+
+	dht := DHT{Pin: btn}
+
+	t, h, err := dht.Read()
+
+	fmt.Printf("t=%d, h=%d\n", t, h)
+	fmt.Println(err)
+
 }
